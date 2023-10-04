@@ -22,7 +22,8 @@ w++;
 }
 }
 return (w);
-}/**
+}
+/**
 * **strtow - splits a string into words
 * @str: string to split
 *
@@ -64,4 +65,4 @@ start = i;
 }
 matrix[k] = NULL;
 return (matrix);
-} 
+}
