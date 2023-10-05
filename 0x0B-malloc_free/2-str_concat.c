@@ -32,33 +32,8 @@ while (s2[ci] != '\0')
 {
 conct[i] = s2[ci];
 i++, ci++;
-}c
-o
-n
-c
-t
-[
-i
-]
-=
-'
-\
-0
-'
-;
-r
-e
-t
-u
-r
-n
-(
-c
-o
-n
-c
-t
-)
-;
+}
+conct[i] = '\0';
+return (conct);
 }
 
